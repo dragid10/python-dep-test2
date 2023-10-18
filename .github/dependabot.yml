@@ -1,39 +1,34 @@
 version: 2
 updates:
-
- - package-ecosystem: "pip"
-   directory: "/"
-   schedule:
-     interval: "daily"
-   groups:
-     python-requirements:
-       patterns:
-         - "*"
-
-  # Maintain dependencies for pip
-  - package-ecosystem: "pip"
-    directory: "/app/backend"
+  - package-ecosystem: pip
+    directory: /
     schedule:
-      interval: "daily"
+      interval: daily
     groups:
       python-requirements:
         patterns:
-          - "*"
-
-  - package-ecosystem: "pip"
-    directory: "/scripts"
+          - '*'
+  - package-ecosystem: pip
+    directory: /app/backend
     schedule:
-      interval: "daily"
+      interval: daily
     groups:
       python-requirements:
         patterns:
-          - "*"
-
-  - package-ecosystem: "pip"
-    directory: "/shorter-path/requirements.txt"
+          - '*'
+  - package-ecosystem: pip
+    directory: /scripts
     schedule:
-      interval: "daily"
+      interval: daily
     groups:
       python-requirements:
         patterns:
-          - "*"
+          - '*'
+  - package-ecosystem: pip
+    directory: /shorter-path/requirements.txt
+    schedule:
+      interval: daily
+    groups:
+      python-requirements:
+        patterns:
+          - '*'
