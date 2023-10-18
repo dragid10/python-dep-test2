@@ -30,5 +30,5 @@ sqlalchemy==1.4.40
     # via
     #   -r requirements.in
     #   ibm-db-sa
-urllib3==1.26.12
+urllib3==1.26.18
     # via requests
