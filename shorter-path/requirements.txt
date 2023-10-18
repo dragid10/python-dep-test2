@@ -1,0 +1,1 @@
+easy-sql-easy-sql==0.1.0
