@@ -9,4 +9,4 @@ pytest
 redis==3.5.3                # https://pypi.org/project/redis/
 spotipy==2.17.1             # https://pypi.org/project/spotipy/
 tweepy==3.10.0              # https://pypi.org/project/tweepy/
-wheel
+pyjks==17.0.0
