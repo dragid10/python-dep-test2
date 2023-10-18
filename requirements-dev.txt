@@ -9,7 +9,7 @@ boxsdk==3.7.2
 bracex==2.4
 build==0.10.0
 cachetools==5.3.1
-certifi==2022.12.7
+certifi==2023.7.22
 cffi==1.15.0
 chardet==5.1.0
 charset-normalizer==2.0.12
