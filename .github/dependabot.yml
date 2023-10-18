@@ -1,6 +1,15 @@
 version: 2
 updates:
 
+ - package-ecosystem: "pip"
+   directory: "/"
+   schedule:
+     interval: "daily"
+   groups:
+     python-requirements:
+       patterns:
+         - "*"
+
   # Maintain dependencies for pip
   - package-ecosystem: "pip"
     directory: "/app/backend"
@@ -21,7 +30,7 @@ updates:
           - "*"
 
   - package-ecosystem: "pip"
-    directory: "/"
+    directory: "/shorter-path/requirements.txt"
     schedule:
       interval: "daily"
     groups:
