@@ -32,7 +32,7 @@ idna==3.3
 imageio==2.31.3
 Jinja2==3.1.2
 jsonschema==4.19.1
-jsonschema-specifications==2023.7.1
+jsonschema-specifications==2023.11.1
 keras==2.13.1
 libclang==16.0.6
 loguru==0.6.0
