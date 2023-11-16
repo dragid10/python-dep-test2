@@ -20,7 +20,7 @@ idna==2.10
     # via requests
 loguru==0.6.0
     # via -r requirements.in
-more-itertools==8.14.0
+more-itertools==10.1.0
     # via -r requirements.in
 python-dotenv==0.20.0
     # via -r requirements.in
