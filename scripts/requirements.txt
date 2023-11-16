@@ -26,7 +26,7 @@ python-dotenv==0.20.0
     # via -r requirements.in
 requests==2.28.1
     # via -r requirements.in
-sqlalchemy==1.4.40
+sqlalchemy==2.0.23
     # via
     #   -r requirements.in
     #   ibm-db-sa
